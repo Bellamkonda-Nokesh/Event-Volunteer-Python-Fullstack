@@ -371,12 +371,6 @@ We welcome contributions from the community! Here's how you can help:
 - [ ] **Advanced Reporting** (Volunteer statistics)
 - [ ] **Multi-event Support** (Manage multiple events)
 
-### Version 3.0 Vision
-- [ ] **Mobile App** (React Native/Flutter)
-- [ ] **Real-time Chat** (Volunteer communication)
-- [ ] **Calendar Integration** (Schedule management)
-- [ ] **Advanced Analytics** (Performance insights)
-
 ---
 
 ## 🆘 Troubleshooting
