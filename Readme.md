@@ -280,15 +280,10 @@ Priority Score = (Experience × 0.6) + (Availability × 0.4)
 ```
 Event-Volunteer-Python-Fullstack/
 ├── backend/
-│   ├── app.py              # Flask application
-│   ├── requirements.txt    # Python dependencies
-│   └── db.json            # Data storage (auto-generated)
-├── frontend/
-│   ├── index.html         # Main application page
-│   ├── style.css          # Custom styles
-│   ├── script.js          # Frontend logic
-│   └── assets/            # Images and resources
-└── README.md              # Project documentation
+│   ├── app.py
+│   └── requirements.txt
+└── frontend/
+    └── index.html
 ```
 
 ### Environment Setup for Development
