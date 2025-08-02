@@ -333,91 +333,7 @@ gunicorn app:app
 - **PythonAnywhere**: Beginner-friendly hosting
 - **AWS/GCP**: Scalable cloud solutions
 
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### Getting Started
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Contribution Guidelines
-- Write clear, documented code
-- Follow existing code style and conventions
-- Add tests for new features
-- Update documentation as needed
-- Be respectful in discussions
-
-### Areas for Contribution
-- 🎨 UI/UX improvements
-- 🔧 New features and functionality
-- 🐛 Bug fixes and optimizations
-- 📚 Documentation enhancements
-- 🧪 Test coverage expansion
-
----
-
-## 📊 Roadmap
-
-### Version 2.0 Features
-- [ ] **Database Integration** (PostgreSQL/MySQL support)
-- [ ] **User Authentication** (Login/logout system)
-- [ ] **Email Notifications** (Assignment alerts)
-- [ ] **Advanced Reporting** (Volunteer statistics)
-- [ ] **Multi-event Support** (Manage multiple events)
-
----
-
-## 🆘 Troubleshooting
-
-### Common Issues
-
-**❌ Flask server won't start**
-```bash
-# Check if port 5000 is in use
-lsof -i :5000  # macOS/Linux
-netstat -ano | findstr :5000  # Windows
-
-# Use different port
-flask run --port 5001
-```
-
-**❌ Frontend can't connect to backend**
-- Ensure Flask server is running on port 5000
-- Check browser console for CORS errors
-- Verify API endpoints in frontend JavaScript
-
-**❌ Virtual environment issues**
-```bash
-# Recreate virtual environment
-rm -rf venv
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
-```
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### What this means:
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ❌ No warranty provided
-- ❌ No liability accepted
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Flask Community** for the excellent web framework
 - **Tailwind CSS Team** for the utility-first CSS framework
@@ -426,7 +342,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 📞 Support & Contact
+##  Support & Contact
 
 <div align="center">
 
